@@ -1,0 +1,29 @@
+{
+	"@context":"./schema.jsonld",
+	"device":{
+		"displayName":"Hallway Sterio",
+		"location":"Hallway",
+		"element":[
+			{
+				"displayName":"On Off",
+				"power":true
+			},
+			{
+				"displayName":"Volume",
+				"volume":38
+			},
+			{
+				"displayName":"Media Source",
+				"mediaSource":"http://example.com/test.mp3"
+			},
+			{
+				"displayName":"State",
+				"mediaState":"Playing"
+			},
+			{
+				"displayName":"Speaker Color",
+				"color":"0x00ff00"
+			}
+		]
+	}
+}

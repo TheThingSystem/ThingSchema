@@ -1,0 +1,15 @@
+{
+	"@context":[
+		"./schema.jsonld"
+	],
+	"device":{
+		"displayName":"Desklight",
+		"location":"Living Room",
+		"element":[
+			{
+				"displayName":"On Off",
+				"power":true
+			}
+		]
+	}
+}

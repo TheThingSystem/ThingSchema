@@ -1,0 +1,25 @@
+{
+	"@context":[
+		"./schema.jsonld"
+	],
+	"device":{
+		"displayName":"Thermostat",
+		"location":"Hallway",
+		"elemenet":[
+			{
+				"displayName":"Current Temperature",
+				"readOnly":{
+					"temperature":75
+				}
+			},
+			{
+				"displayName":"Desired Tempurature",
+				"temperature":60
+			},
+			{
+				"displayName":"Fan",
+				"fan":false
+			}
+		]
+	}
+}
