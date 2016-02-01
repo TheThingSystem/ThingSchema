@@ -1,0 +1,29 @@
+{
+	"@context":{
+		"BalancedSlide":{
+			"@id":"http://thingsystem.com/schema/inputs/balanced/"
+			"@type":"http://schema.org/Integer"
+		},
+		"Toggle":{
+			"@id":"http://thingsystem.com/schema/inputs/toggle/",
+			"@type":"http://schema.org/Boolean"
+		},
+		"Slider":{
+			"@id":"http://thingsystem.com/schema/inputs/slider/".
+			"@type":"http://schema.org/Integer"
+		},
+		"Selector":{
+			"@id":"http://thingsystem.com/schema/inputs/selector/",
+			"@type":"http://schema.org/String"
+		},
+		"URL":{
+			"@id":"http://thingsystem.com/schema/inputs/URL/",
+			"@type":"http://schema.org/Url"
+		},
+		"ColorSelector":{
+			"@id":"http://thingsystem.com/scheam/inputs/color/",
+			"@type":"http://schema.org/color"
+		}
+	}
+}
+

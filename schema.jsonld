@@ -5,35 +5,35 @@
 			"element":"http://thingsystem.com/schema/element",
 			"power":{
 				"@id":"http://thingsystem.com/schema/elements/power",
-				"@type":"http://schema.org/Boolean"
+				"@type":"Toggle"
 			},
 			"color":{
 				"@id":"http://thingsystem.com/schema/elements/color",
-				"@type":"http://schema.org/color"
+				"@type":"ColorSelector"
 			},
 			"fan":{
 				"@id":"http://thingsystem.com/schema/elements/fan",
-				"@type":"http://schema.org/Boolean"
+				"@type":"Toggle"
 			},
 			"mediaState":{
 				"@id":"http://thingsystem.com/schema/elements/playstate",
-				"@type":"http://schema.org/text"
+				"@type":"Selector"
 			},
 			"mediaSource":{
 				"@id":"http://thingsystem.com/schema/elements/media",
-				"@type":"http://schema.org/url"
+				"@type":"URL"
 			},
 			"brightness":{
 				"@id":"http://thingsystem.com/schema/elements/brightness",
-				"@type":"http://schema.org/Integer"	
+				"@type":"Slider"	
 			},
 			"volume":{
 				"@id":"http://thingsystem.com/schema/elements/volume",
-				"@type":"http://schem.org/Integer"
+				"@type":"Slider"
 			},
 			"temperature":{
 				"@id":"http://thingsystem.com/schema/elements/temp",
-				"@type":"http://schema.org/Integer"
+				"@type":"BalancedSlider"
 			},
 			"displayName":{
 				"@id":"http://thingsystem.com/schema/tags/displayName",
