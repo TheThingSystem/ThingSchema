@@ -1,47 +1,61 @@
 {
 	"@context":[
 		{
+			"ui":{
+				"@id":"http://thingsystem.com/schema/ui",
+				"@type":"@id"
+			},
 			"device":"http://thingsystem.com/schema/device",
 			"element":"http://thingsystem.com/schema/element",
 			"power":{
 				"@id":"http://thingsystem.com/schema/elements/power",
-				"@type":"Toggle"
+				"@type":"boolean",
+				"ui":"Toggle"
 			},
 			"color":{
 				"@id":"http://thingsystem.com/schema/elements/color",
-				"@type":"ColorSelector"
+				"@type":"Color",
+				"ui":"ColorSelector"
 			},
 			"fan":{
 				"@id":"http://thingsystem.com/schema/elements/fan",
-				"@type":"Toggle"
+				"@type":"boolean",
+				"ui":"Toggle"
 			},
 			"mediaState":{
 				"@id":"http://thingsystem.com/schema/elements/playstate",
-				"@type":"Selector"
+				"@type":"String",
+				"ui":"Selector"
 			},
 			"mediaSource":{
 				"@id":"http://thingsystem.com/schema/elements/media",
-				"@type":"URL"
+				"@type":"URL",
+				"ui":"URL"
 			},
 			"brightness":{
 				"@id":"http://thingsystem.com/schema/elements/brightness",
-				"@type":"Slider"	
+				"@type":"Integer",
+				"ui":"Slider"
 			},
 			"volume":{
 				"@id":"http://thingsystem.com/schema/elements/volume",
-				"@type":"Slider"
+				"@type":"Integer",
+				"ui":"Slider"
 			},
 			"temperature":{
 				"@id":"http://thingsystem.com/schema/elements/temp",
-				"@type":"BalancedSlider"
+				"@type":"Integer",
+				"ui":"BalancedInteger"
 			},
 			"displayName":{
 				"@id":"http://thingsystem.com/schema/tags/displayName",
-				"@type":"http://schema.org/name"
+				"@type":"http://schema.org/name",
+				"ui":"Label"
 			},
 			"manufacture":{
 				"@id":"http://thingsystem.com/schema/tags/manufacture",
-				"@type":"http://schema.org/Organization"
+				"@type":"http://schema.org/Organization",
+				"ui":"Label"
 			},
 			"readOnly":{
 				"@id":"http://thingsystem.com/schema/tags/readOnly",
@@ -49,7 +63,8 @@
 			},
 			"location":{
 				"@id":"http://thingsystem.com/schema/tags/location",
-				"@type":"http://schema.org/text"
+				"@type":"http://schema.org/text",
+				"ui":"Label"
 			}
 		}
 	]

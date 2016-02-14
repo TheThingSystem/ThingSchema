@@ -1,17 +1,17 @@
 # Rest API
 
-## `GET /features`
+## `GET /`
 
 Returns the full feature list in JSON(LD) format
 
-## `POST /update`
+## `POST /`
 
 Body contains a feature to update in JSON(LD) format
 
 Returns `{success:true}` if the update succeded or `{success:false,
 reason:"reason the update failed"}` otherwise.
 
-## `WEBSOCKET /event`
+## `WEBSOCKET /`
 
 Body contains a feature to watch in JSON(LD) format
 
